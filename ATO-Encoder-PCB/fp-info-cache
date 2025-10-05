@@ -1,4 +1,4 @@
-26731566329955143
+26735085708865676
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84784,6 +84784,13 @@ Toshiba 11-7A9 DIL DIP PDIP 2.54mm 7.62mm 300mil
 5
 5
 Package_DIP
+Untitled
+
+
+0
+0
+0
+Package_DIP
 Vishay_HVM-DIP-3_W7.62mm
 3-lead though-hole mounted high-volatge DIP package (based on standard DIP-4), row spacing 7.62 mm (300 mils), see https://www.vishay.com/docs/91361/hexdip.pdf
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil Vishay HVMDIP HEXDIP
@@ -99361,6 +99368,13 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019#page=29
 Logo WEEE
+0
+0
+0
+Teensy4.1
+HAND_Logo
+
+
 0
 0
 0
