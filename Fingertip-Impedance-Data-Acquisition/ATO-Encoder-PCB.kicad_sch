@@ -250,6 +250,24 @@
 					)
 				)
 				(pin input line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 1.27 -22.86 90)
 					(length 2.54)
 					(name "~{BFAULT}"
@@ -4593,6 +4611,12 @@
 		(uuid "82c51343-e15f-4eef-ab76-969b8498030e")
 	)
 	(junction
+		(at 96.52 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83121f2c-1aa7-4d71-a9a6-fba506d75624")
+	)
+	(junction
 		(at 204.47 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6238,6 +6262,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 57.15) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb85ea6b-140a-4f62-ab03-80dbb86ea0f1")
+	)
+	(wire
+		(pts
 			(xy 53.34 67.31) (xy 63.5 67.31)
 		)
 		(stroke
@@ -6800,7 +6834,7 @@
 			)
 		)
 	)
-	(global_label "SDO"
+	(global_label "CLK"
 		(shape input)
 		(at 115.57 90.17 0)
 		(fields_autoplaced yes)
@@ -6812,7 +6846,7 @@
 		)
 		(uuid "61342def-4ea2-4d0f-adfd-5540625a8d7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3652 90.17 0)
+			(at 122.1233 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6966,7 @@
 			)
 		)
 	)
-	(global_label "CLK"
+	(global_label "CS"
 		(shape input)
 		(at 115.57 92.71 0)
 		(fields_autoplaced yes)
@@ -6944,7 +6978,7 @@
 		)
 		(uuid "929db692-136d-41b6-8e06-e1e988857e6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1233 92.71 0)
+			(at 121.0347 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +6988,7 @@
 			)
 		)
 	)
-	(global_label "CS"
+	(global_label "SDO"
 		(shape input)
 		(at 115.57 95.25 0)
 		(fields_autoplaced yes)
@@ -6966,7 +7000,7 @@
 		)
 		(uuid "c5600ea7-4940-4488-9412-4243003d8622")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0347 95.25 0)
+			(at 122.3652 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,6 +8336,9 @@
 		)
 		(pin "3"
 			(uuid "d40cdec3-c166-4c36-8b31-8982e03bd4e3")
+		)
+		(pin "33"
+			(uuid "0aab383a-91c6-4a20-90b9-372f054f5a1a")
 		)
 		(instances
 			(project ""
